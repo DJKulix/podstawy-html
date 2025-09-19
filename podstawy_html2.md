@@ -122,12 +122,19 @@ Lista wypunktowana, gdzie każdy element oznaczony jest domyślnie kropką (bull
 
 Dodatkowo w liście numerowanej możemy użyć atrybutów `type` i `start`.
 
-Type określa sposób numerowania:
-1 - liczby (domyślny sposób)
-A - wielkie litery
-a - małe litery
-I - wielkie liczby rzymskie
-i - małe rzymskie liczby
+### Atrybut `type` w liście `<ol>`
+
+Atrybut **`type`** określa sposób numerowania elementów w liście uporządkowanej (`<ol>`).
+
+Dostępne wartości:
+
+- `1` – liczby (domyślny sposób)  
+- `A` – wielkie litery (A, B, C...)  
+- `a` – małe litery (a, b, c...)  
+- `I` – wielkie liczby rzymskie (I, II, III...)  
+- `i` – małe liczby rzymskie (i, ii, iii...)  
+
+### Atrybut `start` w liście `<ol>`
 
 Start określa numer od którego rozpoczyna się lista np. `start="5"`
 
@@ -168,6 +175,7 @@ W niektórych przypadkach zajdzie potrzeba użycia tzw. zagnieżdżanej listy np
     - faron dla którego zbudowano piramidę
     - ukończenie budowy
 3. Pod listą dodaj linki z których korzystałeś.
+
 
 
 
