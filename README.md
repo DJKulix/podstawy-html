@@ -185,6 +185,15 @@ Aby to działało, w docelowym miejscu dodajemy identyfikator:
 <a href="https://example.com" target="_blank">Otwórz w nowej karcie</a>
 ```
 
+### Obraz jako link
+```html
+<a href="https://example.com"><img src="logo.jpg"></a>
+```
+
+### Linkowanie do adresu e-mail (kliknięcie otwiera aplikację poczty)
+```html
+<a href="mailto:kowalski@gmail.com">Wyślij wiadomość</a>
+
 
 ### Ćwiczenie 5
 
